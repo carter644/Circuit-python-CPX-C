@@ -1,0 +1,45 @@
+# babylon_5_races = ["Centauri", "Minbari", "Narn", "Human",  "Shadow", "Vorlon"]
+# print(babylon_5_races)
+# print(babylon_5_races[1])
+# x = int(input('enter an index > '))
+# print(babylon_5_races[x])
+
+#my_list = [42, ["apple", "orange"], "Hello",["Centauri", "Minbari", "Narn", "Vorlon"]]
+#print("This is my_list")
+#print(my_list)
+#print("This are items in my_list")
+#print(my_list[0])
+#print(my_list[1])
+#print(my_list[2])
+#print(my_list[3])
+
+#my_list[2] = "hi"
+#print(my_list)
+
+my_string = 'Babylon_5'
+my_list = ['B','a','b','y','l','o','n','_','5'] 
+
+print(my_string[3])
+print(my_list[3])
+
+print(my_string[3:6])
+print(my_list[3:6])
+
+my_list = ['B','a','b','y','l','o','n','_','5']
+# 3rd to 5th (not including the 6th)
+print(my_list[3:6])
+# beginning up to but not including the 4th
+print(my_list[:-5])
+# 6th to end
+print(my_list[5:])
+# beginning to end
+print(my_list[:])
+
+my_list = ['B','a','b','y','l','o','n','_','5']
+# elements beginning up to but not including the 4th
+new_list = my_list[:4]
+print(new_list)
+# elements from -4 up to -2
+another_new_list = my_list[-4:-2]
+print(another_new_list)
+
