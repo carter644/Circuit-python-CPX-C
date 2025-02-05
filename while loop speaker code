@@ -1,0 +1,6 @@
+from adafruit_circuitplayground import cp
+cp.play_tone(frequency, 2)
+while (frequency < 1000):
+    cp.play_tone(frequency, 2)
+    print (frequency)
+    frequency += 50
